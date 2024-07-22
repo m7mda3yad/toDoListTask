@@ -4,7 +4,7 @@
 A simple task manager application built with Laravel and Vue.js. Users can add, edit, delete, search, and filter tasks by category.
 
 ## Prerequisites
-- PHP 8.x
+- PHP 8.2
 - Composer
 - Node.js and npm
 - Laravel 11.9
@@ -14,28 +14,28 @@ A simple task manager application built with Laravel and Vue.js. Users can add, 
 
 ### Clone the Repository
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/m7mda3yad/toDoListTask.git
    cd toDoListTask
 
 Install dependencies:
 
-       ```bash
+       
         composer install
         npm install
 
 ### Set up environment variables:
 
-       ```bash
+       
         cp .env.example .env
 ### Configure your .env file with the appropriate database and application settings.
 Generate application key:
 
-       ```bash
+       
         php artisan key:generate
 ### Run migrations and seed the database:
 
-       ```bash
+       
         php artisan migrate --seed
         npm run dev
         php artisan serve
